@@ -4,7 +4,7 @@ A simple package that finer tetrahedron finite element mesh.
 ## How it work 
 The module will decompose all the tetrahedron elements into 8 small tetrahedron element. The notation can be seen in Fig.1.
 
-![Finer](figs\Finer.jpg)
+![Finer](figs/Finer.jpg)
 Fig.1. The present decomposing scheme.
 
 
