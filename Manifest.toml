@@ -3,7 +3,7 @@
 [[AbaAccess]]
 git-tree-sha1 = "06196a97fcc890cf08608791353fe455d140c726"
 repo-rev = "master"
-repo-url = "https://github.com/bplcn/AbaAccess.jl.git"
+repo-url = "https://github.com/bplcn/AbaAccess.jl"
 uuid = "8479c776-2ae4-43bb-a37b-f3f4d529e7ed"
 version = "0.1.0"
 
