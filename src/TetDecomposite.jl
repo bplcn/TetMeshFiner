@@ -120,7 +120,7 @@ function MeshRefiner(ElemDict::Dict,EdgeMiddleDictSparse::SparseMatrixCSC{Int64,
 
     ElemDictNew = deepcopy(ElemDict);
 
-    Threads.@threads for elemID in ElemIDArrayOld
+    @inbounds @simd for elemID in ElemIDArrayOld
 
         nodehere = zeros(Int64,10);
 

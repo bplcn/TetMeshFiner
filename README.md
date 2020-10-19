@@ -26,7 +26,7 @@ elemtotalold = length(ElemIDArrayOld);
 @time NodeDictNew,EdgeMiddleDictSparse = ConstructSparseDict(NodeDict,Edge_all);
 
 # update the element 
-@time ElemDictNew = MeshRefiner(ElemDict,EdgeMiddleDictSparse);
+@time ElemDictNew = MeshRefiner(ElemDict,EdgeMiddleDictSpars　e);
 
 @time ElsetDictNew = ElsetDictUpdate(ElsetDict,EdgeMiddleDictSparse,elemtotalold=elemtotalold);
 ```
